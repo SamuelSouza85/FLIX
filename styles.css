@@ -10,16 +10,37 @@ body {
     background-color: black;
     color: white;
     margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+}
+iframe{
+    border: solid 2px black;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    height: 150px;
     
 }
-section{
+.chamada-texto{
+    margin-right: 5%;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+.section-top{
     display: flex;
     background-color: rgb(184, 156, 213);
     padding-top: 80px;
     padding-bottom: 80px;
     justify-content: center;
 }
-
-.chamada-texto{
-    margin-right: 5%;
+.section-videos{
+    padding-left: 20px;
+    padding-right: 20px;
 }
