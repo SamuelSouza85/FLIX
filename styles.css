@@ -12,6 +12,9 @@ body {
     margin: 0;
     font-family: "Chakra Petch", sans-serif;
 }
+footer{
+    margin-top: 100px;
+}
 iframe{
     border: solid 2px black;
 }
@@ -33,6 +36,13 @@ img{
     overflow-x: auto;
     gap: 10px
 }
+.categoria-videos img{
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid green;
+}
 .section-top{
     display: flex;
     background-color: rgb(184, 156, 213);
@@ -43,4 +53,7 @@ img{
 .section-videos{
     padding-left: 20px;
     padding-right: 20px;
+}
+.section-videos h2{
+    color: rgb(42, 122, 228);
 }
